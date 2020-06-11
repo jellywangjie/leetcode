@@ -5,7 +5,7 @@ public:
         int left=1,right=x,mid,res;
         while(left<=right){
             mid=left+(right-left)/2;//防止2147483647+1溢出
-            if(mid==x/mid){
+            if(mid==x/mid){//防止mid*mid溢出
                 return mid;
             }else if(mid<x/mid){
                 left=mid+1;
