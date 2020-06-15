@@ -1,4 +1,4 @@
-class Solution {
+class Solution {//动态规划
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
         if(triangle.size()==0) return 0;
