@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int climbStairs(int n) {
+    int climbStairs(int n) {//动态规划
         if(n<=2) return n;
         int step1=1;//s1表示当前阶梯的前一个
         int step2=2;
